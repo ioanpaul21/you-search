@@ -7,7 +7,7 @@ import VideoDetail from "./VideoDetail";
 class App extends Component {
   state = { videos: [], selectedVideo: null };
   componentDidMount() {
-    this.onTermSubmit("bilie eilish");
+    this.onTermSubmit("ioan paul paulet");
   }
 
   onTermSubmit = async (term) => {
